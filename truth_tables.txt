@@ -1,0 +1,36 @@
+Truth table for AND gate
+A 	B 	Result
+1	1	1
+1	0	0
+0	1	0
+0	0	0
+Truth table for OR gate
+A 	B 	Result
+1	1	1
+1	0	1
+0	1	1
+0	0	0
+Truth table for NAND gate
+A 	B 	Result
+1	1	0
+1	0	1
+0	1	1
+0	0	1
+Truth table for NOR gate
+A 	B 	Result
+1	1	0
+1	0	0
+0	1	0
+0	0	1
+Truth table for XOR gate
+A 	B 	Result
+1	1	0
+1	0	1
+0	1	1
+0	0	0
+Truth table for XNOR gate
+A 	B 	Result
+1	1	1
+1	0	0
+0	1	0
+0	0	1

@@ -1,0 +1,15 @@
+Avg row time for 5 runs: 0.002299976348876953s
+Avg col time for 5 runs: 0.001699972152709961s
+Difference: 0.0006000041961669921s with matrice size 100x100Avg row time for 5 runs: 0.00950031280517578s
+Avg col time for 5 runs: 0.007500219345092774s
+Difference: 0.002000093460083007s with matrice size 200x200Avg row time for 5 runs: 0.027198362350463866s
+Avg col time for 5 runs: 0.021098566055297852s
+Difference: 0.006099796295166014s with matrice size 400x400Avg row time for 5 runs: 0.09969840049743653s
+Avg col time for 5 runs: 0.07459826469421386s
+Difference: 0.025100135803222665s with matrice size 800x800Avg row time for 5 runs: 0.34389581680297854s
+Avg col time for 5 runs: 0.3278989315032959s
+Difference: 0.01599688529968263s with matrice size 1600x1600Avg row time for 5 runs: 1.2955992698669434s
+Avg col time for 5 runs: 1.3779996871948241s
+Difference: 0.08240041732788073s with matrice size 3200x3200Avg row time for 5 runs: 5.2634947299957275s
+Avg col time for 5 runs: 5.467397546768188s
+Difference: 0.20390281677246058s with matrice size 6400x6400
