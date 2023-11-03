@@ -18,13 +18,13 @@ possible_combinations: list = [(True,True), (True, False), (False, True), (False
 
 logic_gates: list = ['and', 'or', 'nand', 'nor', 'xor', 'xnor']
 
-with open('truth_tables.txt', 'w', encoding='utf-8') as f:
+with open('truth_tables.txt', 'w', encoding='utf-8') as table:
     for gate in logic_gates:
         header: str = f'Truth table for {gate.upper()} gate\nA \tB \tResult'
         print(header)
-        f.write(f"{header}\n")
+        table.write(f"{header}\n")
         for combination in possible_combinations:
             A, B = combination
             table_row = f'{int(A)}\t{int(B)}\t{int(logic_operation(type=gate, A=A, B=B))}'
             print(table_row)
-            f.write(f'{table_row}\n')
+            table.write(f'{table_row}\n')
