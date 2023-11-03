@@ -20,11 +20,11 @@ logic_gates: list = ['and', 'or', 'nand', 'nor', 'xor', 'xnor']
 
 with open('truth_tables.txt', 'w', encoding='utf-8') as f:
     for gate in logic_gates:
-        output: str = f'Truth table for {gate.upper()} gate\nA \tB \tResult'
-        print(output)
-        f.write(f"{output}\n")
+        header: str = f'Truth table for {gate.upper()} gate\nA \tB \tResult'
+        print(header)
+        f.write(f"{header}\n")
         for combination in possible_combinations:
             A, B = combination
-            output = f'{int(A)}\t{int(B)}\t{int(logic_operation(type=gate, A=A, B=B))}'
-            print(output)
-            f.write(f'{output}\n')
+            table_row = f'{int(A)}\t{int(B)}\t{int(logic_operation(type=gate, A=A, B=B))}'
+            print(table_row)
+            f.write(f'{table_row}\n')
