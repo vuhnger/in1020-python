@@ -12,7 +12,7 @@ def logic_operation(type: str, A: bool, B: bool) -> bool:
         case 'xor':
             return A ^ B
         case 'xnor':
-            return not A ^ B
+            return not (A ^ B)
 
 possible_combinations: list = [(True,True), (True, False), (False, True), (False, False)]
 
